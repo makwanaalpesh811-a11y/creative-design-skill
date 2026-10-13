@@ -11,35 +11,6 @@ metadata:
     related_skills: [popular-web-designs, claude-design, excalidraw, architecture-diagram]
 ---
 
-# DESIGN.md Skill
-
-DESIGN.md is Google's open spec (Apache-2.0, `google-labs-code/design.md`) for
-describing a visual identity to coding agents. One file combines:
-
-- **YAML front matter** — machine-readable design tokens (normative values)
-- **Markdown body** — human-readable rationale, organized into canonical sections
-
-Tokens give exact values. Prose tells agents *why* those values exist and how to
-apply them. The CLI (`npx @google/design.md`) lints structure + WCAG contrast,
-diffs versions for regressions, and exports to Tailwind or W3C DTCG JSON.
-
-## When to use this skill
-
-- User asks for a DESIGN.md file, design tokens, or a design system spec
-- User wants consistent UI/brand across multiple projects or tools
-- User pastes an existing DESIGN.md and asks to lint, diff, export, or extend it
-- User asks to port a style guide into a format agents can consume
-- User wants contrast / WCAG accessibility validation on their color palette
-
-For purely visual inspiration or layout examples, use `popular-web-designs`
-instead. For *process and taste* when designing a one-off HTML artifact
-from scratch (prototype, deck, landing page, component lab), use
-`claude-design`. This skill is for the *formal spec file* itself.
-
-## File anatomy
-
-```md
----
 version: alpha
 name: Heritage
 description: Architectural minimalism meets journalistic gravitas.

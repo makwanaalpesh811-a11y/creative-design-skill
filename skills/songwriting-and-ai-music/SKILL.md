@@ -16,13 +16,6 @@ triggers:
   - AI music generation
 ---
 
-# Songwriting & AI Music Generation
-
-Everything here is a GUIDELINE, not a rule. Art breaks rules on purpose.
-Use what serves the song. Ignore what doesn't.
-
----
-
 ## 1. Song Structure (Pick One or Invent Your Own)
 
 Common skeletons — mix, modify, or throw out as needed:
